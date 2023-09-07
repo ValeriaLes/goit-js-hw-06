@@ -11,7 +11,7 @@ const bodyColor = document.querySelector('body')
 const colorChange = function () {
 const bodyBgColor = getRandomHexColor()
 
-bodyColor.style.backgroundColor= getRandomHexColor();
+bodyColor.style.backgroundColor= bodyBgColor;
 colorText.textContent = bodyBgColor;
 
 }

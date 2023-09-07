@@ -13,7 +13,7 @@ const symbolLength = function (event) {
        
 
     }
-    else if (Number.parseInt(input.dataset.length) !== inputValue.length) {
+    else  {
         
         input.classList.remove("valid")
         input.classList.add("invalid")
